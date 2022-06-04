@@ -24,7 +24,6 @@ function prependCat(name){
     return copyOfCats;
 }
 function removeLastCat(){
-    const copyOfCats = [...cats]
     return copyOfCats.splice(0,2);
 }
 function removeFirstCat(){
